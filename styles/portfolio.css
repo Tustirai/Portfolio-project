@@ -1,11 +1,41 @@
+.container {
+    width: 2000px;
+}
+
 h1 {
-  font-family: "Playfair Display", serif;
-  font-weight: bolder;
-  font-size: 64px;
+    font-family: "Playfair Display", serif;
+    font-weight: bolder;
+    font-size: 64px;
 }
 
 p {
-  font-family: "Merriweather", serif;
-  font-size: 24px;
-  font-weight: normal;
+    font-family: "Merriweather", serif;
+    font-size: 24px;
+    font-weight: normal;
+}
+.hero {
+    padding-top: 50px;
+}
+.headshot {
+    border-color: #ff8ad8;
+    border-radius: 350%;
+    border-style: double solid;
+    margin: 0 auto;
+}
+.btn-secondary {
+    background-color: #ff8ad8;
+    border: #ff8ad8;
+}
+.contact-section {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    padding: 50px;
+}
+footer {
+    font-family: "Merriweather", serif;
+    font-size: 18px;
+    text-align: center;
+    color: #ff8ad8;
+    font-weight: bolder;
 }
