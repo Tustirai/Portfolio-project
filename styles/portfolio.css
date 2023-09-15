@@ -39,7 +39,7 @@ p {
     padding: 50px;
 }
 footer {
-    font-family: "Merriweather", serif;
+    font-family: var(--body-font-family);
     font-size: 18px;
     text-align: center;
     color: var(---branding-color);
