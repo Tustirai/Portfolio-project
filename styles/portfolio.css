@@ -87,3 +87,8 @@ ul {
     display: block;
     margin: 0 auto;
 }
+.navbar-nav {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
