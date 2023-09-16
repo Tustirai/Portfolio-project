@@ -68,8 +68,22 @@ footer {
     margin: 0 auto;
     color: var(---branding-color);
 }
+.contactTitle {
+    display: block;
+    margin: 0 auto;
+    color: var(---branding-color);
+    margin-top: 50px;
+}
 @media (max-width: 576px) {
     .small-text {
         font-size: 11px;
     }
+}
+li {
+    list-style: none;
+    padding: 15px;
+}
+ul {
+    display: block;
+    margin: 0 auto;
 }
