@@ -33,6 +33,7 @@ p {
     border-radius: 20%;
     border-style: double solid;
     margin: 0 auto;
+    max-width: 350px;
 }
 .btn-secondary {
     background-color: var(---branding-color);
