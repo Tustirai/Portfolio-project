@@ -33,6 +33,7 @@ p {
     border-radius: 20%;
     border-style: double solid;
     margin: 0 auto;
+    max-width: 350px;
 }
 .btn-secondary {
     background-color: var(---branding-color);
@@ -50,6 +51,10 @@ footer {
     text-align: center;
     color: var(---branding-color);
     font-weight: bolder;
+    border-radius: 20px;
+}
+.footerStyling {
+    background: linear-gradient(to top, #dfe9f3 0%, white 100%);
 }
 .projectImage {
     box-shadow: 0 1px 5px #00000008, 0 5px 30px #0000001a;
@@ -61,4 +66,90 @@ footer {
     border: var(---branding-color) inset;
     padding: 10px;
     margin-top: 60px;
+}
+.AboutTitle {
+    display: block;
+    margin: 0 auto;
+    color: var(---branding-color);
+}
+.contactTitle {
+    display: block;
+    margin: 0 auto;
+    color: var(---branding-color);
+    margin-top: 50px;
+}
+@media (max-width: 576px) {
+    .hero {
+        display: flex;
+        flex-direction: column;
+    }
+    .row {
+        flex-direction: column;
+    }
+    .col-lg-6 {
+        width: 100%;
+    }
+    .col-md-6 {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .headshot {
+        max-width: 80%;
+    }
+
+    .small-text {
+        font-size: 10px;
+    }
+    .project-preview {
+        display: flex;
+        flex-direction: column;
+    }
+    .row {
+        flex-direction: column;
+    }
+    .col-6 {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .projectImage {
+        max-width: 80%;
+    }
+    .d-none.d-md-block {
+        display: block;
+    }
+}
+li {
+    list-style: none;
+    padding: 15px;
+}
+ul {
+    display: block;
+    margin: 0 auto;
+}
+.navbar-nav {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+.socialIcons i {
+    margin-right: 10px;
+}
+a:link {
+    color: inherit;
+}
+a:visited {
+    color: inherit;
+    text-decoration: none;
+}
+.socialIcons i:hover {
+    color: black;
+}
+.footerPar {
+    font-size: 10px;
+}
+.linkHighlight {
+    text-decoration: underline;
+    color: black;
 }
