@@ -13,21 +13,25 @@ h1 {
     font-weight: bolder;
     font-size: 64px;
 }
+
 h2 {
     font-family: var(--heading-font-family);
     font-weight: bolder;
     font-size: 34px;
 }
+
 p {
     font-family: var(--body-font-family);
     font-size: 24px;
     font-weight: normal;
 }
+
 .hero {
     padding-top: 50px;
     margin: 0 auto;
     display: block;
 }
+
 .headshot {
     border-color: var(---branding-color);
     border-radius: 20%;
@@ -35,16 +39,19 @@ p {
     margin: 0 auto;
     max-width: 350px;
 }
+
 .btn-secondary {
     background-color: var(---branding-color);
     border: var(---branding-color);
 }
+
 .contact-section {
     display: block;
     margin: 0 auto;
     text-align: center;
     padding: 50px;
 }
+
 footer {
     font-family: var(--body-font-family);
     font-size: 18px;
@@ -53,13 +60,16 @@ footer {
     font-weight: bolder;
     border-radius: 20px;
 }
+
 .footerStyling {
     background: linear-gradient(to top, #dfe9f3 0%, white 100%);
 }
+
 .projectImage {
     box-shadow: 0 1px 5px #00000008, 0 5px 30px #0000001a;
     border-radius: 20px;
 }
+
 .project-preview {
     box-shadow: 0 1px 5px #00000008, 0 5px 30px #0000001a;
     border-radius: 20px;
@@ -67,33 +77,40 @@ footer {
     padding: 10px;
     margin-top: 60px;
 }
+
 .AboutTitle {
     display: block;
     margin: 0 auto;
     color: var(---branding-color);
 }
+
 .contactTitle {
     display: block;
     margin: 0 auto;
     color: var(---branding-color);
     margin-top: 50px;
 }
+
 @media (max-width: 576px) {
     .hero {
         display: flex;
         flex-direction: column;
     }
+
     .row {
         flex-direction: column;
     }
+
     .col-lg-6 {
         width: 100%;
     }
+
     .col-md-6 {
         width: 100%;
         display: flex;
         justify-content: center;
     }
+
     .headshot {
         max-width: 80%;
     }
@@ -101,55 +118,87 @@ footer {
     .small-text {
         font-size: 10px;
     }
+
     .project-preview {
         display: flex;
         flex-direction: column;
     }
+
     .row {
         flex-direction: column;
     }
+
     .col-6 {
         width: 100%;
         display: flex;
         justify-content: center;
     }
+
     .projectImage {
         max-width: 80%;
     }
+
     .d-none.d-md-block {
         display: block;
     }
 }
+
 li {
     list-style: none;
     padding: 15px;
 }
+
 ul {
     display: block;
     margin: 0 auto;
 }
+
 .navbar-nav {
     margin: auto;
     display: flex;
     justify-content: center;
 }
+
 .socialIcons i {
     margin-right: 10px;
 }
+
 a:link {
     color: inherit;
 }
+
 a:visited {
     color: inherit;
     text-decoration: none;
 }
+
 .socialIcons i:hover {
     color: black;
 }
+
 .footerPar {
     font-size: 10px;
 }
+
 .linkHighlight {
     text-decoration: underline;
     color: black;
+}
+
+/* Custom CSS for carousel controls */
+.carousel-control-prev,
+.carousel-control-next {
+    width: 5%;
+    opacity: 1;
+    z-index: 1;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: rgba(243, 58, 166, 0.5);
+}
+
+.carousel-control-prev:hover,
+.carousel-control-next:hover {
+    background-color: rgba(0, 0, 0, 0.047);
 }
